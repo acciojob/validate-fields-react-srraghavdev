@@ -19,7 +19,7 @@ const App = () => {
       <input type='text' onChange={(event)=>Setusername(event.target.value)}></input>
       <label for='name'>Password:</label>
       <input type='password' onChange={(event)=>Setpassword(event.target.value)}></input>
-      <div class='error'>{error}</div>
+      <div id='errorMessage'>{error}</div>
       <button type="submit">Login</button>
       </form>
   )
